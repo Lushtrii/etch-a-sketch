@@ -4,22 +4,12 @@
   box-sizing: border-box;
 }
 
-:root {
-  --cell-side-length: 25px;
-  --num-rows: 16;
-  --num-cols: 16;
-}
-
 #grid {
-  width: calc(var(--cell-side-length) * var(--num-cols));
-  height: calc(var(--cell-side-length) * var(--num-rows));
   display: flex;
   flex-wrap: wrap;
 }
 
 .grid-cell {
-  width: var(--cell-side-length);
-  height: var(--cell-side-length);
   border: 1px solid black;
 }
 
