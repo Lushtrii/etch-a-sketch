@@ -22,3 +22,7 @@
   height: var(--cell-side-length);
   border: 1px solid black;
 }
+
+.filled {
+  background-color: red;
+}

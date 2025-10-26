@@ -5,6 +5,9 @@ function createGrid(numRows, numCols) {
     for (let j = 0; j < numCols; j++) {
       const gridCell = document.createElement("div");
       gridCell.classList.add("grid-cell");
+      gridCell.addEventListener("mouseover", () => {
+        gridCell.classList.add("filled");
+      });
       container.appendChild(gridCell);
     }
   }
